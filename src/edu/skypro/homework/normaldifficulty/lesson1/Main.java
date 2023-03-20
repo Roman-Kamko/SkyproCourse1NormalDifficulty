@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     private static void printSeparator() {
@@ -71,6 +72,15 @@ public class Main {
     }
 
     private static void task7() {
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+
+        var firstWay = secondBoxer - firstBoxer;
+        var secondWay = secondBoxer % firstBoxer;
+
+        System.out.println("firstWay = " + firstWay);
+        System.out.println("secondWay = " + secondWay);
+        printSeparator();
     }
 
     private static void task8() {
